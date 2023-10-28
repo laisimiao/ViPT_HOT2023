@@ -8,9 +8,13 @@ ViPT variants for Hyperspectral Object Tracking Challenge 2023 (https://www.hsit
 
 ## Usage
 ### Installation
-Create and activate a conda environment:
+Create and activate a conda environment, we've tested on this env:
 ```
-
+timm                    0.6.11
+torch                   1.9.1+cu102
+torchfile               0.1.0
+torchvision             0.10.1+cu102
+python                  3.7.10
 ```
 
 ### Data Preparation
@@ -18,21 +22,43 @@ Download the validation and ranking datasets from [official project](https://www
 ```
 $<PATH_of_Data>
 -- validation
-    -- DepthTrackTraining
-        |-- adapter02_indoor
-        |-- bag03_indoor
-        |-- bag04_indoor
+    -- HSI-NIR
+        |-- basketball3
         ...
-    -- LasHeR/train/trainingset
-        |-- 1boygo
-        |-- 1handsth
+    -- HSI-NIR-FalseColor
+        |-- basketball3
         ...
-    -- VisEvent/train
-        |-- 00142_tank_outdoor2
-        |-- 00143_tank_outdoor2
+    -- HSI-RedNIR
+        |-- ball&mirror9
         ...
-        |-- trainlist.txt
+    -- HSI-RedNIR-FalseColor
+        |-- ball&mirror9
+        ...
+    -- HSI-VIS
+        |-- ball
+        ...
+    -- HSI-VIS-FalseColor
+        |-- ball
+        ...
 -- ranking
+    -- HSI-NIR
+        |-- basketball2
+        ...
+    -- HSI-NIR-FalseColor
+        |-- basketball2
+        ...
+    -- HSI-RedNIR
+        |-- backpack4
+        ...
+    -- HSI-RedNIR-FalseColor
+        |-- backpack4
+        ...
+    -- HSI-VIS
+        |-- cards6
+        ...
+    -- HSI-VIS-FalseColor
+        |-- cards6
+        ...
 ```
 
 ### Path Setting
