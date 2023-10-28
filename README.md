@@ -74,6 +74,9 @@ You can also modify paths by these two files:
 ```
 
 ### Testing
+Modify the **line176** and **line183** of the file `tracking/test_hsi_mgpus_all.py` to yours.
 ```
 cd <PATH_of_ViPT_HOT2023/tracking>
+python test_hsi_mgpus_all.py --dataset_name HOT23VAL
+python test_hsi_mgpus_all.py --dataset_name HOT23TEST
 ```
