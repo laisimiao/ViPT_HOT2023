@@ -174,14 +174,14 @@ if __name__ == '__main__':
     ## path initialization
     seq_list = None
     if dataset_name == 'HOT23VAL':
-        seq_home = '/media/lz/T9/validation'
+        seq_home = '/your_path/validation'
         seq1 = sorted([join('HSI-NIR-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-NIR-FalseColor')) if isdir(join(seq_home, 'HSI-NIR-FalseColor', i))])
         seq2 = sorted([join('HSI-VIS-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-VIS-FalseColor')) if isdir(join(seq_home, 'HSI-VIS-FalseColor', i))])
         seq3 = sorted([join('HSI-RedNIR-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-RedNIR-FalseColor')) if isdir(join(seq_home, 'HSI-RedNIR-FalseColor', i))])
         seq_list = seq1 + seq2 + seq3
         seq_list.sort()
     elif dataset_name == 'HOT23TEST':
-        seq_home = '/media/lz/T7Shield/ranking'
+        seq_home = '/your_path/ranking'
         seq1 = sorted([join('HSI-NIR-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-NIR-FalseColor')) if isdir(join(seq_home, 'HSI-NIR-FalseColor', i))])
         seq2 = sorted([join('HSI-VIS-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-VIS-FalseColor')) if isdir(join(seq_home, 'HSI-VIS-FalseColor', i))])
         seq3 = sorted([join('HSI-RedNIR-FalseColor', i) for i in os.listdir(join(seq_home, 'HSI-RedNIR-FalseColor')) if isdir(join(seq_home, 'HSI-RedNIR-FalseColor', i))])
