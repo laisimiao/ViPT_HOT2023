@@ -6,6 +6,8 @@ ViPT variants for Hyperspectral Object Tracking Challenge 2023 (https://www.hsit
 [Models & Raw Results](https://drive.google.com/drive/folders/1t8ZiPa7FVADhOA0cs0uWcQM-2hGZzRH3?usp=drive_link)
 (Google Driver)  [Video Presentation](https://youtu.be/BfxQ6rIxjvU)(YouTube)
 
+![image](https://github.com/laisimiao/ViPT_HOT2023/assets/37405764/7ca5faf6-e6de-431c-9a62-a55dd9eabac0)
+
 ## Usage
 ### Installation
 Create and activate a conda environment, we've tested on this env:
