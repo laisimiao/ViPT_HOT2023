@@ -4,7 +4,7 @@ ViPT variants for Hyperspectral Object Tracking Challenge 2023 (https://www.hsit
 :trophy: Without bells and whistles, we won **the third place** using single model of ViPT variant.
 
 [Models & Raw Results](https://drive.google.com/drive/folders/1t8ZiPa7FVADhOA0cs0uWcQM-2hGZzRH3?usp=drive_link)
-(Google Driver)
+(Google Driver)  [Video Presentation](https://youtu.be/BfxQ6rIxjvU)(YouTube)
 
 ## Usage
 ### Installation
