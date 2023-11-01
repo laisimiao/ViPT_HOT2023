@@ -76,7 +76,7 @@ You can also modify paths by these two files:
 ```
 
 ### Testing
-- Download pretrained model `ViPT_all.pth.tar` from [link](https://drive.google.com/drive/folders/1t8ZiPa7FVADhOA0cs0uWcQM-2hGZzRH3?usp=drive_link) and put it into dir `final_model`.
+- Download pretrained model `ViPT_all.pth.tar` from [link](https://drive.google.com/file/d/1ARMdEJjmrkOLOa0kIMGfqL3szK5kTOZX/view?usp=sharing) and put it into dir `final_model`.
 - Modify the **line177** and **line184** of the file `tracking/test_hsi_mgpus_all.py` to yours.
 ```
 cd <PATH_of_ViPT_HOT2023/tracking>
