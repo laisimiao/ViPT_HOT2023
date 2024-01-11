@@ -1,5 +1,7 @@
 # ViPT_HOT2023
 ViPT variants for Hyperspectral Object Tracking Challenge 2023 (https://www.hsitracking.com/)  
+
+See our [ViPT CVPR2023 Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.pdf) and PyTorch [Code](https://github.com/jiawen-zhu/ViPT) here!  
   
 :trophy: Without bells and whistles, we won **the third place** using single model of ViPT variant.
 
@@ -82,4 +84,16 @@ You can also modify paths by these two files:
 cd <PATH_of_ViPT_HOT2023/tracking>
 python test_hsi_mgpus_all.py --dataset_name HOT23VAL
 python test_hsi_mgpus_all.py --dataset_name HOT23TEST
+```
+
+## Citation
+If you find ViPT is helpful and use this code for your research, please consider citing:
+```bibtex
+@inproceedings{zhu2023visual,
+  title={Visual prompt multi-modal tracking},
+  author={Zhu, Jiawen and Lai, Simiao and Chen, Xin and Wang, Dong and Lu, Huchuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9516--9526},
+  year={2023}
+}
 ```
