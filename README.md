@@ -5,6 +5,9 @@ See our [ViPT CVPR2023 Paper](https://openaccess.thecvf.com/content/CVPR2023/pap
   
 :trophy: Without bells and whistles, we won **the third place** using single model of ViPT variant.
 
+:rocket: Update  
+**2024/10/25** -- provide the results of HOT2024 Validation set 
+
 [Models & Raw Results](https://drive.google.com/drive/folders/1t8ZiPa7FVADhOA0cs0uWcQM-2hGZzRH3?usp=drive_link)
 (Google Driver)  [Video Presentation](https://youtu.be/BfxQ6rIxjvU)(YouTube)
 
